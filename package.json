@@ -1,0 +1,14 @@
+{
+  "name": "storyapp",
+  "version": "1.0.0",
+  "description": "An app where each user gets to contribute to a neverending tale.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joel Shooster",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
