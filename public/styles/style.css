@@ -1,0 +1,9 @@
+#text-angular{
+  color:white;
+  background-color:black;
+}
+.container .jumbotron{
+  background-color: black;
+  color:white;
+  border-radius: 20px
+}
