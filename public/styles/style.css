@@ -1,9 +1,44 @@
-#text-angular{
-  color:white;
-  background-color:black;
+
+body{
+  background-color: #CBE86B;
 }
-.container .jumbotron{
-  background-color: black;
+
+#welcome{
+  background: url("../images/bay.jpg");
+  background-position: center;
+  background-size: 1200px 800px;
+  color: white;
+}
+
+
+#blurb{
+  background-color: #008EB0;
+  min-height: auto;
+  height: auto;
   color:white;
-  border-radius: 20px
+  font-family: inherit;
+  border-radius: 20px;
+  text-align: center;
+  margin:20px 0;
+  overflow: auto;
+}
+
+.container .jumbotron{
+  background-color: #008EB0;
+  color:white;
+  min-height: 200px;
+  border-radius: 20px;
+  overflow: auto;
+}
+
+.ta-editor {
+    color: black;
+    background-color: #FFFFFF;
+    min-height: 200px;
+    height: auto;
+    overflow: auto;
+    font-family: inherit;
+    font-size: 100%;
+    margin:20px 0;
+    border-radius: 20px;
 }

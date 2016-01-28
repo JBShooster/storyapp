@@ -18,5 +18,4 @@ angular.module('StoryService', []).factory('Story', ['$http', function($http){
             return $http.delete('/api/stories/' + id);
         }
     };       
-
 }]);
