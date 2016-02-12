@@ -1,13 +1,13 @@
 <!-- public/views/story.html -->
-
-<div class="jumbotron text-center">
-  <p class="tagline ng-show">{{tagline}}</p>
-  <p class="pages"></p>
-  <div id="story-active" ta-bind ng-model="blurb" class="ng-show"></div>
-</div>
-
 <textarea class="form-control" ng-model="blurb" id="blurb" rows="4">
 </textarea>
+<div class="jumbotron text-center">
+  <p class="tagline ng-show">{{tagline}}</p>
+  <p class="pages">{{results}}</p>
+  <div id="story-active"  class="ng-show"></div>
+</div>
+
+
 <!-- 
 <div text-angular ng-model="htmlVariable" class="ng-show">
 </div> -->

@@ -1,10 +1,9 @@
 
 body{
-  background-color: #CBE86B;
+  background: url("../images/stars.jpg");
 }
 
 #welcome{
-  background: url("../images/bay.jpg");
   background-position: center;
   background-size: 1200px 800px;
   color: white;
@@ -12,26 +11,27 @@ body{
 
 
 #blurb{
-  background-color: #008EB0;
-  min-height: auto;
+  border: 5px solid white;
+  background: rgba(25,25,25,.5);
+  min-height: 200px;
   height: auto;
   color:white;
   font-family: inherit;
-  border-radius: 20px;
+  font-size: 20px;
   text-align: center;
   margin:20px 0;
   overflow: auto;
 }
 
 .container .jumbotron{
-  background-color: #008EB0;
+  border: 5px solid white;
+  background: rgba(25,25,25,.5);
   color:white;
-  min-height: 200px;
-  border-radius: 20px;
+  min-height: auto;
   overflow: auto;
 }
 
-.ta-editor {
+/*.ta-editor {
     color: black;
     background-color: #FFFFFF;
     min-height: 200px;
@@ -41,4 +41,4 @@ body{
     font-size: 100%;
     margin:20px 0;
     border-radius: 20px;
-}
+}*/
