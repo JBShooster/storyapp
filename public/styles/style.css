@@ -1,0 +1,44 @@
+
+body{
+  background: url("../images/stars.jpg");
+}
+
+#welcome{
+  background-position: center;
+  background-size: 1200px 800px;
+  color: white;
+}
+
+
+#blurb{
+  border: 5px solid white;
+  background: rgba(25,25,25,.4);
+  min-height: 200px;
+  height: auto;
+  color:white;
+  font-style: Helvetica;
+  font-size: 20px;
+  text-align: center;
+  margin:20px 0;
+  overflow: auto;
+}
+
+.container .jumbotron{
+  border: 5px solid white;
+  background: rgba(25,25,25,.4);
+  color:white;
+  min-height: auto;
+  overflow: auto;
+}
+
+/*.ta-editor {
+    color: black;
+    background-color: #FFFFFF;
+    min-height: 200px;
+    height: auto;
+    overflow: auto;
+    font-family: inherit;
+    font-size: 100%;
+    margin:20px 0;
+    border-radius: 20px;
+}*/
