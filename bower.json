@@ -1,0 +1,13 @@
+{
+  "name": "storyapp",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "latest",
+    "font-awesome": "latest",
+    "animate.css": "latest",
+    "angular": "latest",
+    "angular-route": "latest",
+    "textAngular": "~1.4.6",
+    "rangy": "~1.3.0"
+  }
+}
