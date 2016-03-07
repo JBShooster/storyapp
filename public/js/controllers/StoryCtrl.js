@@ -6,7 +6,7 @@ angular.module('StoryCtrl', []).controller('StoryController', function($scope) {
       var testText = $("#blurb").val();
       var textRegex = /([A-Z]\.?\w*\-?[A-Z]?\w*)\s?([A-Z]\w+|[A-Z]?\.?)\s([A-Z]?\w{0,3}[A-Z]\w+\-?[A-Z]?\w*)(?:,\s|)(Jr\.|Sr\.|IV|III|II|)\w+/g;
       results = testText.match(textRegex);
-      console.log("Results: ", results);
+      console.log("Entities: ", results);
       $scope.results = results;
     });
 });
