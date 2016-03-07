@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 
 //Set Port
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || $PORT;
 
 // connect to our mongoDB database
 // (uncomment after you enter in your own credentials in config/db.js)
