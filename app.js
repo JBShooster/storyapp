@@ -15,9 +15,9 @@ var port = process.env.PORT || $PORT;
 
 
 //Configure app to use bodyParser()
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false}));
 
+app.use(bodyParser.urlencoded({ extended: false}));
+app.use(bodyParser.json());
 app.use(methodOverride());
 
 // set the static files location /public/img will be /img for users
