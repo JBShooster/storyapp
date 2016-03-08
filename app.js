@@ -3,11 +3,11 @@
 //Modules
 var express = require('express');
 var app = express();
-var bodyParser = require('body-parser');
+// var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 
 //Set Port
-var port = process.env.PORT || $PORT;
+var port = process.env.PORT || process.env.IP;
 
 // connect to our mongoDB database
 // (uncomment after you enter in your own credentials in config/db.js)
@@ -16,8 +16,8 @@ var port = process.env.PORT || $PORT;
 
 //Configure app to use bodyParser()
 
-app.use(bodyParser.urlencoded({ extended: false}));
-app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: false}));
+// app.use(bodyParser.json());
 app.use(methodOverride());
 
 // set the static files location /public/img will be /img for users
@@ -27,7 +27,7 @@ app.use(express.static(__dirname + '/public'));
 require('./app/routes')(app); // configure our routes
 
 // start app ===============================================
-// startup our app at http://localhost:8080
+// startup our app
 app.listen(port);
 
 // shoutout to the user
